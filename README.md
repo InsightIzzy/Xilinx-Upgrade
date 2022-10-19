@@ -29,7 +29,7 @@ ntpath.<br />
 
 ### Extra 
 * **log file** - the script generate a .log file called log.upgrade.log at the same folder as the script.<br />
-* **documentation** - script's documentation at [Xilinx SCS Pages](https://insightec.lightning.force.com/lightning/page/home). [**TDB**]
+* **documentation** - script's documentation at [Xilinx SCS Pages](https://insightec.lightning.force.com/lightning/r/CompSuite__Document_Revision__c/a1g3Y000009zsc5QAA/view).
 
 ## Authors
 Israel Yesha'ayahu (israely@insightec.com)
