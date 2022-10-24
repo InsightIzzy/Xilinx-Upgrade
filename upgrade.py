@@ -38,15 +38,15 @@ class SystemUpgrade:
 
     def run_script(self, ip, mode):
         self.log.info("running update script on machine {}".format(ip))
-        if (mode != 0):
-            mac = ip
+        if mode != 0:
+            mac = 'a2:b1:72:16:0' + ip[7] + ':' + ip[9] + ip[10]
             self.log.info("running update script on machine {}".format(ip))
-            cmd = 'sh update_mac.sh ' + str(ip) + ' '+ str(mac)
+            cmd = 'sh update_mac.sh ' + str(ip) + ' ' + str(mac)
             print(cmd)
         else:
             cmd = 'sh update_emmc.sh'
             print(cmd)
-       self._run_command(cmd)
+        self._run_command(cmd)
 
     def terminate(self):
         pass
